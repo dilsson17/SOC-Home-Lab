@@ -35,7 +35,7 @@ Logs from Windows are sent to Splunk using Splunk Universal Forwarder.
 I simulate attacks and create detections based on logs.
 
 - [T1059.001 - PowerShell Execution](./2-Attack-Detections/T1059.001-PowerShell/)
-- [T1003.001 - LSASS Dump](./2-Attack-Detections/T1003.001-LSASS-Dump/)
+- [T1003.001 - LSASS Credential Dumping](./2-Attack-Detections/T1003.001-LSASS-Dump/)
 
 ## Email Security Gateway (In Progress)
 I am building an email security gateway using:
