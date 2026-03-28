@@ -4,7 +4,7 @@
 Startup folder persistence (MITRE ATT&CK T1547.001)
 
 ## What Happened
-I simulated persistence in my lab by placing a file in the Startup folder so it could run automatically when the user logs in.
+I simulated persistence in my lab by copying a file into the Windows Startup folder so it could run automatically when the user logs in.
 
 ## Logs Observed
 - Sysmon Event ID 1
@@ -14,17 +14,28 @@ I simulated persistence in my lab by placing a file in the Startup folder so it 
 
 ## Detection Query
 ```spl
-index=* (EventCode=1 OR EventCode=11)
-| table _time host User Image TargetFilename CommandLine ParentImage
+index=* ("batstartup.bat" OR "Startup") (EventCode=1 OR EventCode=11 OR EventCode=13)
+| table _time host User Image TargetFilename CommandLine EventCode ParentImage
 ```
 
 ## Why Suspicious
-- A file was placed in the Startup folder
+- A file was copied into the Startup folder
 - This behavior can be used to maintain persistence after reboot or logon
-- File creation and process activity can help identify this technique
+- File creation and related process activity can help identify this technique
+
+## Alert Validation
+This detection was also configured as a Splunk alert and triggered during the simulation.
 
 ## Screenshots
-(Add your screenshots here)
+
+### Triggered Alerts in Splunk
+![Startup Alert](../../startup-alert.png)
+
+### Startup Query Results
+![Startup Query](../../startup-query-detailed.png)
+
+### Event Details
+![Startup Event](../../startup-event.png)
 
 ## Analyst Takeaway
-This activity shows how attackers can use the Startup folder to maintain persistence. Monitoring file creation and related process activity is useful for detecting this behavior.
+This activity shows how attackers can use the Startup folder to maintain persistence. Looking at file creation, command-line activity, and related process behavior is important for detecting this technique.
