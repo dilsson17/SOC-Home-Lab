@@ -18,8 +18,8 @@ index=* EventCode=1 Image="*powershell.exe"
 
 ## Why Suspicious
 - PowerShell was used to run suspicious commands
-- The command line showed unusual activity
-- Parent-child process behavior can help identify malicious execution
+- The command line showed unusual execution behavior
+- PowerShell can be abused to execute malicious actions
 
 ## Screenshots
 
@@ -30,4 +30,4 @@ index=* EventCode=1 Image="*powershell.exe"
 ![PowerShell Event](../../powershell-event.png)
 
 ## Analyst Takeaway
-This activity shows how PowerShell can be used in attacks. Looking at command line activity and process details is important for detection.
+This activity shows how PowerShell can be abused for execution in attacks. Reviewing command-line activity and process details is important for detecting suspicious PowerShell behavior.
