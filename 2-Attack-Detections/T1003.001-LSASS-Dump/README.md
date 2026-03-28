@@ -23,10 +23,16 @@ index=* EventCode=1 Image="*powershell.exe"
 - The command line showed activity targeting LSASS
 - IntegrityLevel was High, which means the process ran with elevated privileges
 
+## Alert Validation
+This detection was also configured as a Splunk alert and triggered during the simulation.
+
 ## Screenshots
 
-### Query Results
-![PowerShell Query](../../powershell-query.png)
+### Triggered Alert in Splunk
+![Triggered Alert](../../triggered-alerts.png)
+
+### LSASS Query Results
+![LSASS Query](../../lsass-query.png)
 
 ### Event Details
 ![LSASS Event](../../powershell-event.png)
