@@ -17,9 +17,10 @@ index=* EventCode=1 Image="*powershell.exe"
 ```
 
 ## Why Suspicious
-- PowerShell was used to run suspicious commands
-- The command line showed unusual execution behavior
-- PowerShell can be abused to execute malicious actions
+- PowerShell was used to invoke credential dumping tools (Invoke-Mimikatz, xordump.exe)
+- Suspicious content was downloaded from a remote URL and executed in memory
+- Command-line activity revealed unusual parent-child process relationships
+- PowerShell was used as part of a multi-stage attack chain
 
 ## Screenshots
 
