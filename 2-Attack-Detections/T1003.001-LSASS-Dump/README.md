@@ -1,4 +1,4 @@
-# T1003.001 - LSASS Dump
+# T1003.001 - LSASS Credential Dumping
 
 ## Technique
 LSASS memory dumping (MITRE ATT&CK T1003.001)
@@ -19,9 +19,9 @@ index=* EventCode=1 Image="*powershell.exe"
 ```
 
 ## Why Suspicious
-- The command line showed LSASS dump activity
-- Tools related to dumping were observed
-- PowerShell was used to execute suspicious commands
+- PowerShell used rundll32.exe with comsvcs.dll MiniDump, which is related to credential dumping
+- The command line showed activity targeting LSASS
+- IntegrityLevel was High, which means the process ran with elevated privileges
 
 ## Screenshots
 
@@ -32,4 +32,4 @@ index=* EventCode=1 Image="*powershell.exe"
 ![LSASS Event](../../powershell-event.png)
 
 ## Analyst Takeaway
-This activity shows how PowerShell can be used to dump LSASS memory and attempt credential access. Monitoring command line activity is important for detecting this behavior.
+This activity shows how attackers may try to access credentials by dumping LSASS memory. Looking at command-line activity, elevated privileges, and suspicious dumping behavior is important for detection.
