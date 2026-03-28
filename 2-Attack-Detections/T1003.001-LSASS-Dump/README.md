@@ -28,7 +28,7 @@ This detection was also configured as a Splunk alert and triggered during the si
 
 ## Screenshots
 
-### Triggered Alert in Splunk
+### Triggered Alerts in Splunk
 ![Triggered Alert](../../triggered-alerts.png)
 
 ### LSASS Query Results
