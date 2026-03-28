@@ -22,10 +22,16 @@ index=* EventCode=1 Image="*powershell.exe"
 - Command-line activity revealed unusual parent-child process relationships
 - PowerShell was used as part of a multi-stage attack chain
 
+## Alert Validation
+This behavior was also tracked through a Splunk alert during lab testing.
+
 ## Screenshots
 
+### Triggered Alerts in Splunk
+![Triggered Alert](../../triggered-alerts.png)
+
 ### Detection Query in Splunk
-![PowerShell Query](../../powershell-query.png)
+![PowerShell Query](../../powershell-query-detailed.png)
 
 ### Event Details
 ![PowerShell Event](../../powershell-event.png)
