@@ -10,6 +10,20 @@ This is my SOC home lab where I practice detection and investigation using Splun
 
 Logs from Windows are sent to Splunk using Splunk Universal Forwarder.
 
+## Home Lab Screenshots
+
+### Lab Setup
+![Lab Setup](vmware-lab.png)
+
+### Splunk Receiving Logs
+![Splunk Logs](splunk-logs.png)
+
+### Sysmon Event Example
+![Sysmon Event](powershell-event.png)
+
+### PowerShell Detection Query
+![PowerShell Query](powershell-query.png)
+
 ## Tools Used
 - Splunk
 - Sysmon
