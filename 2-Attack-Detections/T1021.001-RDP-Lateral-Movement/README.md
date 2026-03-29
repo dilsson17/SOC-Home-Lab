@@ -33,19 +33,19 @@ I also created two Splunk alerts for this activity:
 ## Screenshots
 
 ### Triggered Alerts in Splunk
-![RDP Alert](../../rdp-alert.png)
+![RDP Alert](../../images/rdp-alert.png)
 
 ### RDP Query Results
-![RDP Query](../../rdp-query-detailed.png)
+![RDP Query](../../images/rdp-query-detailed.png)
 
 ### Credential Staging Query Results
-![cmdkey Query](../../cmdkey-query-detailed.png)
+![cmdkey Query](../../images/cmdkey-query-detailed.png)
 
 ### RDP Event Details
-![RDP Event](../../rdp-event.png)
+![RDP Event](../../images/rdp-event.png)
 
 ### Credential Staging Event Details
-![cmdkey Event](../../cmdkey-event.png)
+![cmdkey Event](../../images/cmdkey-event.png)
 
 ## Analyst Takeaway
 This activity shows how an attacker can use stored credentials and RDP to move to another system. Looking at parent-child process behavior and command-line activity helps detect this.
