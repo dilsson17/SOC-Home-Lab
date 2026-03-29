@@ -29,13 +29,13 @@ This detection was also configured as a Splunk alert and triggered during the si
 ## Screenshots
 
 ### Triggered Alerts in Splunk
-![Clear Logs Alert](../../clearlogs-alert.png)
+![Clear Logs Alert](../../images/clearlogs-alert.png)
 
 ### Query Results
-![Clear Logs Query](../../clearlogs-query-detailed.png)
+![Clear Logs Query](../../images/clearlogs-query-detailed.png)
 
 ### Event Details
-![Clear Logs Event](../../clearlogs-event.png)
+![Clear Logs Event](../../images/clearlogs-event.png)
 
 ## Analyst Takeaway
 This activity shows how attackers can use log clearing to hide evidence after malicious actions. Reviewing PowerShell command-line behavior and Security Event ID 1102 is important for detecting this technique.
