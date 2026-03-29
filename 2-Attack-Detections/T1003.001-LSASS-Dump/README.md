@@ -29,7 +29,7 @@ This detection was also configured as a Splunk alert and triggered during the si
 ## Screenshots
 
 ### Triggered Alerts in Splunk
-![Triggered Alert](images/../triggered-alerts.png)
+![Triggered Alert](images/../../triggered-alerts.png)
 
 ### LSASS Query Results
 ![LSASS Query](../../lsass-query.png)
