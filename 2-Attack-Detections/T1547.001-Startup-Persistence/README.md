@@ -29,13 +29,13 @@ This detection was also configured as a Splunk alert and triggered during the si
 ## Screenshots
 
 ### Triggered Alerts in Splunk
-![Startup Alert](../../startup-alert.png)
+![Startup Alert](../../images/startup-alert.png)
 
 ### Startup Query Results
-![Startup Query](../../startup-query-detailed.png)
+![Startup Query](../../images/startup-query-detailed.png)
 
 ### Event Details
-![Startup Event](../../startup-event.png)
+![Startup Event](../../images/startup-event.png)
 
 ## Analyst Takeaway
 This activity shows how attackers can use the Startup folder to maintain persistence. Looking at file creation, command-line activity, and related process behavior is important for detecting this technique.
