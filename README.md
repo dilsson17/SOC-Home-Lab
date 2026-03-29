@@ -4,9 +4,12 @@
 This is my SOC home lab where I practice detection and investigation using Splunk and Sysmon. I simulate attacks and analyze logs like a real SOC analyst.
 
 ## Lab Architecture
-- Ubuntu (Splunk SIEM)
-- Windows 10 (victim machine with Sysmon)
-- Kali Linux (attacker)
+
+| VM | OS | RAM | vCPU | Role |
+|---|---|---:|---:|---|
+| SOC-Splunk | Ubuntu Server | 16 GB | 6 | Splunk SIEM — log collection and detection |
+| SOC-Windows10 | Windows 10 | 8 GB | 4 | Victim machine — attack simulation and telemetry |
+| SOC-Attacker | Kali Linux 2025.4 | 6 GB | 4 | Attacker machine — controlled attack execution |
 
 Logs from Windows are sent to Splunk using Splunk Universal Forwarder.
 
