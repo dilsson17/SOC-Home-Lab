@@ -13,16 +13,16 @@ Logs from Windows are sent to Splunk using Splunk Universal Forwarder.
 ## Home Lab Screenshots
 
 ### Lab Setup
-![Lab Setup](vmware-lab.png)
+![Lab Setup](images/vmware-lab.png)
 
 ### Splunk Receiving Logs
-![Splunk Logs](splunk-logs.png)
+![Splunk Logs](images/splunk-logs.png)
 
 ### Sysmon Event Example
-![Sysmon Event](powershell-event.png)
+![Sysmon Event](images/powershell-event.png)
 
 ### PowerShell Detection Query
-![PowerShell Query](powershell-query.png)
+![PowerShell Query](images/powershell-query.png)
 
 ## Tools Used
 - Splunk
