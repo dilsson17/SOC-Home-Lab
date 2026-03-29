@@ -30,13 +30,13 @@ This behavior was also tracked through a Splunk alert during lab testing.
 ## Screenshots
 
 ### Triggered Alerts in Splunk
-![Triggered Alert](../../triggered-alerts.png)
+![Triggered Alert](../../images/triggered-alerts.png)
 
 ### Detection Query in Splunk
-![PowerShell Query](../../powershell-query-detailed.png)
+![PowerShell Query](../../images/powershell-query-detailed.png)
 
 ### Event Details
-![PowerShell Event](../../powershell-event.png)
+![PowerShell Event](../../images/powershell-event.png)
 
 ## Analyst Takeaway
 This activity shows how PowerShell can be abused for execution in attacks. Reviewing command-line activity and process details is important for detecting suspicious PowerShell behavior.
