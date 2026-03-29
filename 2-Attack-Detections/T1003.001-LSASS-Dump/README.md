@@ -32,10 +32,10 @@ This detection was also configured as a Splunk alert and triggered during the si
 ![Triggered Alert](../../images/triggered-alerts.png)
 
 ### LSASS Query Results
-![LSASS Query](../../lsass-query.png)
+![LSASS Query](../../images/lsass-query.png)
 
 ### Event Details
-![LSASS Event](../../powershell-event.png)
+![LSASS Event](../../images/powershell-event.png)
 
 ## Analyst Takeaway
 This activity shows how attackers may try to access credentials by dumping LSASS memory. Looking at command-line activity, elevated privileges, and suspicious dumping behavior is important for detection.
