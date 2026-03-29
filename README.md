@@ -47,6 +47,8 @@ I am building an email security gateway using:
 Goal: detect phishing and malicious emails.
 
 ## What I Learned
-- How to build a SOC lab
-- How logs are generated and analyzed
-- How to detect suspicious behavior using Splunk
+- How to simulate attacks mapped to MITRE ATT&CK
+- How to analyze Sysmon and Windows event logs in Splunk
+- How to write SPL queries to detect suspicious behavior
+- How to configure scheduled alerts with severity levels in Splunk
+- How to investigate execution, credential access, persistence, defense evasion, and lateral movement techniques
