@@ -32,10 +32,15 @@ Logs from Windows are sent to Splunk using Splunk Universal Forwarder.
 - MITRE ATT&CK
 
 ## Attack Detections
-I simulate attacks and create detections based on logs.
 
-- [T1059.001 - PowerShell Execution](./2-Attack-Detections/T1059.001-PowerShell/)
+I simulate attacks and create detections based on real lab telemetry and logs.
+
 - [T1003.001 - LSASS Credential Dumping](./2-Attack-Detections/T1003.001-LSASS-Dump/)
+- [T1021.001 - RDP Lateral Movement](./2-Attack-Detections/T1021.001-RDP-Lateral-Movement/)
+- [T1053.005 - Scheduled Task Persistence](./2-Attack-Detections/T1053.005-Scheduled-Task/)
+- [T1059.001 - PowerShell Execution](./2-Attack-Detections/T1059.001-PowerShell/)
+- [T1070.001 - Clear Logs](./2-Attack-Detections/T1070.001-Clear-Logs/)
+- [T1547.001 - Startup Persistence](./2-Attack-Detections/T1547.001-Startup-Persistence/)
 
 ## Email Security Gateway (In Progress)
 I am building an email security gateway using:
