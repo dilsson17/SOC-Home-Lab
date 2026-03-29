@@ -32,7 +32,7 @@ This detection was also configured as a Splunk alert and triggered during the si
 ![Scheduled Task Alert](../../scheduledtask-alert.png)
 
 ### Query Results
-![Scheduled Task Query](../../scheduledtask-query.png)
+![Scheduled Task Query](../../scheduledtask-query-detailed.png)
 
 ### Event Details
 ![Scheduled Task Event](../../scheduledtask-event.png)
