@@ -29,13 +29,13 @@ This detection was also configured as a Splunk alert and triggered during the si
 ## Screenshots
 
 ### Triggered Alerts in Splunk
-![Scheduled Task Alert](../../scheduledtask-alert.png)
+![Scheduled Task Alert](../../images/scheduledtask-alert.png)
 
 ### Query Results
-![Scheduled Task Query](../../scheduledtask-query-detailed.png)
+![Scheduled Task Query](../../images/scheduledtask-query-detailed.png)
 
 ### Event Details
-![Scheduled Task Event](../../scheduledtask-event.png)
+![Scheduled Task Event](../../images/scheduledtask-event.png)
 
 ## Analyst Takeaway
 This activity shows how attackers can use scheduled tasks to maintain persistence or repeatedly execute commands. Reviewing process creation and command-line behavior is important for detecting this technique.
